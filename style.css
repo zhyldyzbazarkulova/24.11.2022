@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: orange;
+  border-radius: 8px;
+  padding: 15px;
+  display: block;
+}
+ul{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.container{
+  max-width: 900px;
+margin: 0 auto;
+}
+a:hover{
+  color: white;
+  background-color:orange;
+  }
+
+
